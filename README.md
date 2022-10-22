@@ -3,5 +3,5 @@
 # chief-prince-of-function.github.io
 
 # 📖 Latest Blog posts
-<!-- github_posts:START -->
-<!-- github_posts:END -->
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
