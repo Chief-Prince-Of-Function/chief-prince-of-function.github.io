@@ -14,4 +14,4 @@ jobs:
       - name: Pull in github posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://chief-prince-of-function.github.io/"
+          feed_list: "https://chief-prince-of-function.github.io/_posts"
