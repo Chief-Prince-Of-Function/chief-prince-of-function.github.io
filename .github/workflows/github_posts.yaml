@@ -1,18 +1,17 @@
-name: Latest GitHub blog post for Readme
+name: Latest blog post workflow
 on:
-  schedule:
-    # Runs every day
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+  schedule: # Run workflow automatically
+    - cron: '0 * * * *' # Runs every hour, on the hour
+  workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the GitHub Actions Workflow page directly
 
 jobs:
   update-readme-with-blog:
-    name: Update this repos README with latest blog posts
+    name: Update this repo's README with latest blog posts
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: gautamkrishnar/blog-post-workflow@master
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Pull in github posts
+        uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          comment_tag_name: "GITHUB_POSTS"
-          feed_list: "https://github.com/Chief-Prince-Of-Function/chief-prince-of-function.github.io/tree/develop/_posts"
-          commit_message: "Update GitHub blog posts"
+          feed_list: "https://chief-prince-of-function.github.io/"
