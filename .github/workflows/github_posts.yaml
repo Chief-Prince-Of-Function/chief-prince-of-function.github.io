@@ -14,5 +14,5 @@ jobs:
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
           comment_tag_name: "GITHUB_POSTS"
-          feed_list: "https://chief-prince-of-function.github.io/"
+          feed_list: "https://chief-prince-of-function.github.io"
           commit_message: "Update GitHub blog posts"
