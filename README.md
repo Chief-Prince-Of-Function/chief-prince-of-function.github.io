@@ -1,5 +1,3 @@
-# chief-prince-of-function.github.io
+##Website URL
 
-## 📖 Latest Blog posts
-<!-- GITHUB_POSTS:START -->
-<!-- GITHUB_POSTS:END -->
+# chief-prince-of-function.github.io
