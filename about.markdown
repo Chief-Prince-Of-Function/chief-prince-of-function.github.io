@@ -17,4 +17,4 @@ In addition to personality statements, I document my personal but professional e
 
 <br>
 
-Chief-Princ-Of-Function
+Chief-Prince-Of-Function
