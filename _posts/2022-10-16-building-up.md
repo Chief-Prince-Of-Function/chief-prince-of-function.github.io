@@ -3,8 +3,6 @@ title: "building-up"
 date: 2022-10-16
 ---
 
-# building up
-
 Sometimes our best intent goes to the pit of despair. Other times its a success. Success however is only true if it has the hardship attached to the grassroots. Beyond the grassroots lays a path of maybe, no less hardship but less impactful hardship and coupled with tangible talking points. Following the beginning of your success starts the phase of implementation. <br>
 
 I bought a MacBook to aid in my app deployment to the AppStore. So here we go. <br>
