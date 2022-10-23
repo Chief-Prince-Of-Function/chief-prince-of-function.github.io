@@ -3,8 +3,6 @@ title: "progress-over-perfection"
 date: 2022-09-03
 ---
 
-# Progress over perfection...
-
 I have a history of overextending my passion in an attempt to rush success. <br>
 This method once served me well in my professional pursuits. The attitude of 'strive for more' was at the forefront in my endeavors. This lead me down a road of great mystery and wonder. This new found method of passion came with great amounts of personal feedback. My commitment to success in my early 20s coupled with the endless opportunities within the United States military, I became heavily decorated and very respected among my peers. <br>
 
