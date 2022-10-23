@@ -3,8 +3,6 @@ title: "way-forward"
 date: 2022-10-22
 ---
 
-# way forward
-
   There was a time, that negative emotions even from others would spin me up for days on end. That reaction no longer suits me. Today I am at work again, back to work on my mental acuity as well as my professional development. <br>
 
   About 10 months ago I started a new company/business. @bosunshirts is a NFT and shirt company among other micro nuances. One of Bosun Shirts' micro services is a growing discord community and following through social media outlets. Among the greatest achievements to date and for the forseeable future is the recent addition of a partner. A second owner cost 50% of profit but it is my hope that this particular business partner will increase revenue and profit beyond the 50% reduction on my end. Super excited for the future of @bosunshirts. <br>
