@@ -3,8 +3,6 @@ title: "excitement"
 date: 2022-10-21
 ---
 
-# Excitement
-
   It has been a long time since I have been truly excited about my future. From birth on up to about 19.5 years old I was stricken with worry that life was both going to be cut short and or will never succeed to be worthy. It was this fear and worry that wound up guiding me through life. Over time, it came to provide security and measure to accomplish based on avoidance of the fears that I placed along my timeline. <br>
   
   But now It has been shed. I have been through both intensive inpatient and now fairly intensive outpatient therapy with weekly meetings. From childhood trauma to military combat trauma my life was confusing, but now I have set a few personal boundaries. This time instead of setting up ```trip wires``` along my path to fear/worry/avoid, I have set up two distinct boundaries/walls to not cross. <br>
