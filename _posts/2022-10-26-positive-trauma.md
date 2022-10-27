@@ -1,5 +1,5 @@
 ---
-title: “positive trauma"
+title: positive trauma
 date: 2022-10-26
 ---
 
