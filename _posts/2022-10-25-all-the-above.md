@@ -1,5 +1,5 @@
 ---
-title: "all-the-above"
+title: "all the above"
 date: 2022-10-25
 ---
 
