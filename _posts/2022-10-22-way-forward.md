@@ -1,5 +1,5 @@
 ---
-title: "way-forward"
+title: "way forward"
 date: 2022-10-22
 ---
 
