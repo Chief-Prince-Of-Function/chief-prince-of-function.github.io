@@ -1,5 +1,5 @@
 ---
-title: "building-up"
+title: "building up"
 date: 2022-10-16
 ---
 
