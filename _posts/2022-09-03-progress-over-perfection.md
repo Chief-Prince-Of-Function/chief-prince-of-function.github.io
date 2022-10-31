@@ -1,5 +1,5 @@
 ---
-title: "progress-over-perfection"
+title: "progress over perfection"
 date: 2022-09-03
 ---
 
