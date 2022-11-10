@@ -1,6 +1,6 @@
 ---
 title: scars heal
-date: 2022-11-04
+date: 2022-11-08
 ---
 
 # scars heal
