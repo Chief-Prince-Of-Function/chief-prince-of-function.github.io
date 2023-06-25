@@ -19,7 +19,7 @@ Been a while. Lets break some ice with some deep thought. I have spent a great d
 2. Every form of religion falls short of OUR higher power's significance. (if you mentally damn others, you have fallen short)
 3. Hell can be temporary. (at that end, we all should aspire to shorten our time necessary)
 4. Purposeful perception will train your brain over time. (growth mindset, open mind, goal driven... practice to see from an all encompasing perception for a greater purpose)
-5. When all is revealed, will you be ready to welcome your current enemy in with you? (if not... consider how our higher power may resolve the issue, im thinking that God would want both children home.
+5. When all is revealed, will you be ready to welcome your current enemy in with you? (if not... consider how our higher power may resolve the issue, im thinking that God would want both children home).
 
 <br>
 
