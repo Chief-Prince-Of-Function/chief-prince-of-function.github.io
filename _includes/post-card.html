@@ -1,0 +1,8 @@
+<article class="card card--post">
+  <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+  <p class="card-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+  {%- if post.excerpt -%}
+    <p>{{ post.excerpt | strip_html | truncate: 150 }}</p>
+  {%- endif -%}
+  <a class="text-link" href="{{ post.url | relative_url }}">Read post</a>
+</article>
