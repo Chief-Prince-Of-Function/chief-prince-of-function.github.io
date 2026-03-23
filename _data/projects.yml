@@ -5,7 +5,9 @@
 
 - title: Veterans Go Outdoors
   description: A nonprofit focused on connection, healing, and community through meaningful time outdoors.
-  url: "#"
+  url: "https://www.veteransgooutdoors.org/"
+  target: "_blank"
+  rel: "noopener noreferrer"
   cta: Visit Veterans Go Outdoors
 
 - title: Builder Work / Digital Projects
