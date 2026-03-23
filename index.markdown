@@ -9,7 +9,7 @@ title: Home
       <p class="eyebrow">Chief-Prince-Of-Function</p>
       <h1>Michael Fusco</h1>
       <p class="lead">Veteran, builder, nonprofit founder, and aspiring full-stack developer creating useful things with purpose.</p>
-      <p>I’m a husband, father, veteran, and hands-on builder focused on meaningful work, thoughtful writing, and practical digital tools. From <a href="https://www.veteransgooutdoors.org/" target="_blank" rel="noopener noreferrer">Veterans Go Outdoors</a> to RiverLog and other projects in development, this site is where I share what I’m building, learning, and refining along the way.</p>
+      <p>I’m a husband, father, veteran, and hands-on builder focused on meaningful work, thoughtful writing, and practical digital tools. From <a href="https://www.veteransgooutdoors.org/" target="_blank" rel="noopener noreferrer">Veterans Go Outdoors</a> to RiverLog and <a href="https://github.com/Chief-Prince-Of-Function" target="_blank" rel="noopener noreferrer">other projects in development</a>, this site is where I share what I’m building, learning, and refining along the way.</p>
       <div class="cta-row">
         <a class="button button--primary" href="#projects">View Projects</a>
         <a class="button button--secondary" href="{{ '/writing/' | relative_url }}">Read Writing</a>
