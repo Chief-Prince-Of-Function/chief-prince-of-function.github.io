@@ -7,27 +7,17 @@ title: Home
   <div class="wrap hero__content">
     <div class="hero-text">
       <p class="eyebrow">Chief-Prince-Of-Function</p>
-      <h1>Michael Fusco</h1>
-      <p class="lead">Veteran, builder, nonprofit founder, and aspiring full-stack developer creating useful things with purpose.</p>
-      <p>I’m a husband, father, veteran, and hands-on builder focused on meaningful work, thoughtful writing, and practical digital tools. From <a href="https://www.veteransgooutdoors.org/" target="_blank" rel="noopener noreferrer">Veterans Go Outdoors</a> to RiverLog and <a href="https://github.com/Chief-Prince-Of-Function" target="_blank" rel="noopener noreferrer">other projects in development</a>, this site is where I share what I’m building, learning, and refining along the way.</p>
+      <h1>I build real systems and practical tools that get used.</h1>
+      <p class="lead">I build real-world apps, dashboards, and operational tools for teams, communities, and day-to-day work in the field.</p>
+      <p>I’m Michael Fusco, a veteran, builder, and nonprofit founder focused on useful software and clear execution. This site is where I share projects I have shipped and writing from the path.</p>
       <div class="cta-row">
         <a class="button button--primary" href="#projects">View Projects</a>
-        <a class="button button--secondary" href="{{ '/writing/' | relative_url }}">Read Writing</a>
       </div>
-      <p><a class="text-link" href="{{ '/about/' | relative_url }}">Learn More About Me</a></p>
     </div>
 
     <div class="hero-image">
       <img src="{{ '/pfp.jpg' | relative_url }}" alt="Portrait of Michael Fusco">
     </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="wrap">
-    <h2>About</h2>
-    <p>I’m a veteran, family man, nonprofit founder, and builder learning in public. My work sits at the intersection of service, craftsmanship, technology, and the outdoors.</p>
-    <a class="text-link" href="{{ '/about/' | relative_url }}">Read the full story</a>
   </div>
 </section>
 
@@ -44,6 +34,17 @@ title: Home
   </div>
 </section>
 
+<section class="section" id="built-and-shipped">
+  <div class="wrap">
+    <h2>Built and Shipped</h2>
+    <ul class="proof-list">
+      <li>Shipped RiverLog as a real, usable app for tracking fishing trips, catches, and decisions on the water.</li>
+      <li>Built operational systems and workflows that keep work organized, visible, and moving.</li>
+      <li>Worked across field operations, nonprofit leadership, and builder environments where practical tools matter.</li>
+    </ul>
+  </div>
+</section>
+
 <section class="section" id="writing">
   <div class="wrap">
     <div class="section-heading-row">
@@ -55,20 +56,5 @@ title: Home
         {% include post-card.html post=post %}
       {% endfor %}
     </div>
-  </div>
-</section>
-
-<section class="section section--accent">
-  <div class="wrap">
-    <h2>Mission &amp; Values</h2>
-    <p>I care about building things that matter—tools that are useful, work that serves others, and a life shaped by faith, family, discipline, and gratitude.</p>
-    <ul class="value-list">
-      <li>Growth</li>
-      <li>Service</li>
-      <li>Faith</li>
-      <li>Family</li>
-      <li>Discipline</li>
-      <li>Craftsmanship</li>
-    </ul>
   </div>
 </section>
