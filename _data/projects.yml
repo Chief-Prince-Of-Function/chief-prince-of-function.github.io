@@ -1,17 +1,21 @@
 - title: RiverLog
-  description: A purpose-built fishing log designed to help anglers track trips, catches, gear, and progress on the water.
+  description: A purpose-built fishing log app for capturing trips, catches, conditions, and gear in one place.
+  impact: Turns fishing notes into a usable system, so better decisions can be made over time with real data.
   url: "#"
   cta: Explore RiverLog
+  featured: true
 
 - title: Veterans Go Outdoors
-  description: A nonprofit focused on connection, healing, and community through meaningful time outdoors.
+  description: A nonprofit centered on connection, healing, and community through meaningful time outdoors.
+  impact: Creates steady support and belonging for veterans through consistent, real-world experiences.
   url: "https://www.veteransgooutdoors.org/"
   target: "_blank"
   rel: "noopener noreferrer"
   cta: Visit Veterans Go Outdoors
 
-- title: Builder Work / Digital Projects
-  description: Dashboards, tools, and experiments built to solve real problems and sharpen my development skills.
+- title: Systems, Dashboards, and Command Centers
+  description: Operational dashboards and command-center style tools built to keep people aligned on priorities.
+  impact: Makes work clearer, reduces friction, and helps teams execute with confidence.
   url: "https://github.com/Chief-Prince-Of-Function"
   target: "_blank"
   rel: "noopener noreferrer"

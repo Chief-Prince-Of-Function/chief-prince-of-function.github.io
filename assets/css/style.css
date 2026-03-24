@@ -46,7 +46,7 @@ a {
 a:hover { color: var(--forest-soft); }
 
 .wrap {
-  width: min(1100px, 92%);
+  width: min(1040px, 92%);
   margin: 0 auto;
 }
 
@@ -121,7 +121,7 @@ a:hover { color: var(--forest-soft); }
 }
 
 .hero {
-  padding: 5rem 0 4rem;
+  padding: 5.25rem 0 4.25rem;
   background: radial-gradient(circle at 85% 15%, rgba(159, 132, 66, 0.14), transparent 38%);
 }
 
@@ -134,7 +134,7 @@ a:hover { color: var(--forest-soft); }
 
 .hero-text {
   flex: 1 1 560px;
-  max-width: 700px;
+  max-width: 640px;
 }
 
 .hero-image {
@@ -146,7 +146,7 @@ a:hover { color: var(--forest-soft); }
 .hero-image img {
   display: block;
   width: min(100%, 320px);
-  border-radius: 0.75rem;
+  border-radius: 0.85rem;
   box-shadow: var(--shadow);
 }
 
@@ -201,7 +201,7 @@ a:hover { color: var(--forest-soft); }
 }
 
 .section {
-  padding: 3.2rem 0;
+  padding: 3.75rem 0;
 }
 
 .section--tinted {
@@ -223,16 +223,26 @@ a:hover { color: var(--forest-soft); }
 
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.15rem;
 }
 
 .card {
   background: var(--white);
   border: 1px solid var(--border);
   border-radius: 0.7rem;
-  padding: 1.1rem;
+  padding: 1.35rem;
   box-shadow: var(--shadow);
+}
+
+.card--project-featured {
+  grid-column: span 2;
+  border-color: #cfc7af;
+}
+
+.card-note {
+  color: var(--muted);
+  margin-top: -0.25rem;
 }
 
 .card h3 a {
@@ -267,6 +277,16 @@ a:hover { color: var(--forest-soft); }
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
+}
+
+.proof-list {
+  margin: 1rem 0 0;
+  padding-left: 1.2rem;
+  max-width: 70ch;
+}
+
+.proof-list li + li {
+  margin-top: 0.55rem;
 }
 
 .value-list li {
@@ -354,7 +374,7 @@ a:hover { color: var(--forest-soft); }
   }
 
   .hero {
-    padding: 3.5rem 0 3rem;
+    padding: 3.5rem 0 3.25rem;
   }
 
   .hero__content {
@@ -374,6 +394,10 @@ a:hover { color: var(--forest-soft); }
 
   .hero-image img {
     width: min(100%, 280px);
+  }
+
+  .card--project-featured {
+    grid-column: span 1;
   }
 
   .footer-signoff {
