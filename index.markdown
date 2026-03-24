@@ -26,10 +26,22 @@ title: Home
     <div class="section-heading-row">
       <h2>Featured Projects</h2>
     </div>
-    <div class="card-grid">
-      {% for project in site.data.projects %}
-        {% include project-card.html project=project %}
-      {% endfor %}
+    <div class="projects-layout">
+      <div class="card-grid card-grid--featured-row">
+        {% for project in site.data.projects %}
+          {% if project.featured %}
+            {% include project-card.html project=project %}
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <div class="card-grid card-grid--secondary-row">
+        {% for project in site.data.projects %}
+          {% unless project.featured %}
+            {% include project-card.html project=project %}
+          {% endunless %}
+        {% endfor %}
+      </div>
     </div>
   </div>
 </section>
