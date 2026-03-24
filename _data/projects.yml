@@ -1,7 +1,9 @@
 - title: RiverLog
   description: A purpose-built fishing log app for capturing trips, catches, conditions, and gear in one place.
   impact: Turns fishing notes into a usable system, so better decisions can be made over time with real data.
-  url: "#"
+  url: "https://apps.apple.com/us/app/riverlog-fishing-log/id6760871494"
+  target: "_blank"
+  rel: "noopener noreferrer"
   cta: Explore RiverLog
   featured: true
 
