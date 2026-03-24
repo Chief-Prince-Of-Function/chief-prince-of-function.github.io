@@ -8,8 +8,8 @@ title: Home
     <div class="hero-text">
       <p class="eyebrow">Chief-Prince-Of-Function</p>
       <h1>Building systems and practical tools.</h1>
-      <p class="lead">I build real-world apps, dashboards, and operational tools for teams, communities, and day-to-day work in the field.</p>
-      <p>I’m Michael Fusco, a veteran, builder, and nonprofit founder focused on useful software and clear execution. This site is where I share projects I have shipped and writing from the path.</p>
+      <p class="lead">I build real world apps, dashboards, and operational tools for teams, communities, and day to day work in the field.</p>
+      <p>I’m Michael Fusco, a veteran, builder, and nonprofit founder focused on useful software and clear execution. This site is where I share projects I have shipped, and writing from the path that got them there.</p>
       <div class="cta-row">
         <a class="button button--primary" href="#projects">View Projects</a>
       </div>
