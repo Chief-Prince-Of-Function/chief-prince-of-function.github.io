@@ -227,6 +227,19 @@ a:hover { color: var(--forest-soft); }
   gap: 1.15rem;
 }
 
+.projects-layout {
+  display: grid;
+  gap: 1.15rem;
+}
+
+.card-grid--featured-row {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.card-grid--secondary-row {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .card {
   background: var(--white);
   border: 1px solid var(--border);
@@ -394,6 +407,10 @@ a:hover { color: var(--forest-soft); }
 
   .hero-image img {
     width: min(100%, 280px);
+  }
+
+  .card-grid--secondary-row {
+    grid-template-columns: 1fr;
   }
 
   .card--project-featured {
