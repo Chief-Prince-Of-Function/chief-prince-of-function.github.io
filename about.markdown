@@ -21,6 +21,18 @@ be useful, stay grounded, and keep improving.
 
 Whether it’s my work, my family, or the things I build, I care about doing things the right way, for the right reasons, and leaving things better than I found them.
 
+## From Service to Community
+I served in the U.S. Coast Guard from 2005 to 2019 as a Chief Boatswain’s Mate. Search and rescue, heavy weather boat operations, and training teams shaped how I approach responsibility: stay prepared, care for your people, and follow through.
+
+In 2018, I founded Veterans Go Outdoors to help veterans find serenity and connection outdoors. Fly fishing and golf create room for fellowship and shared experience.
+
+My work at Merit Apprenticeship Alliance connects contractors with registered apprenticeship. I help people navigate the process, build relationships, and keep the next step moving.
+
+## Away from Work
+Family comes first. I also make time for fly fishing, golf, building fishing lures, and hands-on projects around the house. My interest in technology follows the same thread: understand how something works, try it, and make it better.
+
+Writing gives me a place to explore faith, gratitude, and the questions that don’t fit neatly into a workday.
+
 ## What I’m Building
 I’m currently focused on work that combines practical value with long term purpose:
 

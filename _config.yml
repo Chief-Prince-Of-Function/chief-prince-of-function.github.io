@@ -1,17 +1,19 @@
-title: Michael Fusco | Chief-Prince-Of-Function
+title: Michael Fusco
 email: chief.prince.of.function@gmail.com
 description: >-
-  Veteran, builder, nonprofit founder, and aspiring full-stack developer creating useful things with purpose.
+  Husband, father, Coast Guard veteran, nonprofit founder, and hands-on builder.
+  Exploring service, useful tools, and life outdoors.
 baseurl: ""
-url: ""
-twitter_username: fuscaha
+url: "https://chief-prince-of-function.github.io"
 github_username: Chief-Prince-Of-Function
-
-# Optional: add /assets/images/favicon.png once you create it.
-favicon: /assets/images/favicon.png
-
-# Build settings
+favicon: /assets/images/favicon.svg
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post

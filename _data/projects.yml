@@ -1,4 +1,6 @@
 - title: RiverLog
+  category: Software / Fishing
+  symbol: '≈'
   description: A purpose-built fishing log app for capturing trips, catches, conditions, and gear in one place.
   impact: Turns fishing notes into a usable system, so better decisions can be made over time with real data.
   url: "https://apps.apple.com/us/app/riverlog-fishing-log/id6760871494"
@@ -8,6 +10,8 @@
   featured: true
 
 - title: Veterans Go Outdoors
+  category: Service / Community
+  symbol: '↟'
   description: A nonprofit centered on connection, healing, and community through meaningful time outdoors.
   impact: Creates steady support and belonging for veterans through consistent, real-world experiences.
   url: "https://www.veteransgooutdoors.org/"
@@ -15,7 +19,9 @@
   rel: "noopener noreferrer"
   cta: Visit Veterans Go Outdoors
 
-- title: Systems, Dashboards, and Command Centers
+- title: Practical Tools & Dashboards
+  category: Systems / Everyday work
+  symbol: '+'
   description: Operational dashboards and command-center style tools built to keep people aligned on priorities.
   impact: Makes work clearer, reduces friction, and helps teams execute with confidence.
   url: "https://github.com/Chief-Prince-Of-Function"

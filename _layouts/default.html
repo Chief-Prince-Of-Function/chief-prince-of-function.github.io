@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     {%- feed_meta -%}
     {%- if site.favicon -%}
-      <link rel="icon" type="image/png" href="{{ site.favicon | relative_url }}">
+      <link rel="icon" type="image/svg+xml" href="{{ site.favicon | relative_url }}">
     {%- endif -%}
   </head>
   <body>
@@ -21,13 +21,14 @@
       <div class="wrap site-header__inner">
         <a class="site-brand" href="{{ '/' | relative_url }}">
           <span class="site-brand__name">Michael Fusco</span>
-          <span class="site-brand__tag">Chief-Prince-Of-Function</span>
+          <span class="site-brand__tag">Service · Craft · Outdoors</span>
         </a>
 
         <nav class="site-nav" aria-label="Main navigation">
           <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
           <a href="{{ '/about/' | relative_url }}" {% if page.url contains '/about/' %}aria-current="page"{% endif %}>About</a>
           <a href="{{ '/writing/' | relative_url }}" {% if page.url contains '/writing/' %}aria-current="page"{% endif %}>Writing</a>
+          <a href="{{ '/' | relative_url }}#projects">Projects</a>
           <a href="#connect">Connect</a>
         </nav>
       </div>
@@ -40,7 +41,9 @@
     <footer class="site-footer" id="connect">
       <div class="wrap footer-grid">
         <div>
-          <h2>Connect</h2>
+          <p class="eyebrow">Keep in touch</p>
+          <h2>Good work starts with a conversation.</h2>
+          <p>Projects, community, or a shared love of the outdoors.</p>
           <ul class="plain-list">
             <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             <li><a href="https://github.com/{{ site.github_username }}">GitHub</a></li>
@@ -48,7 +51,7 @@
           </ul>
         </div>
         <div class="footer-signoff">
-          <p>Built with purpose.</p>
+          <p>Family. Service. Gratitude.</p><p>Built with purpose, by Michael.</p>
           <p>&copy; {{ 'now' | date: '%Y' }} Michael Fusco</p>
         </div>
       </div>
