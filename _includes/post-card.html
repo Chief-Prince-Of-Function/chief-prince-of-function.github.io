@@ -1,13 +1,17 @@
 <article class="card card--post">
-  <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-  <p class="card-meta"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %-d, %Y" }}</time></p>
-  {%- assign paragraphs = post.content | split: '<p>' -%}
-  {%- for paragraph in paragraphs offset: 1 -%}
-    {%- assign preview = paragraph | split: '</p>' | first | strip_html | normalize_whitespace -%}
-    {%- assign prefix = preview | slice: 0, 5 | downcase -%}
-    {%- if preview.size >= 50 and prefix != 'song:' -%}
-      <p>{{ preview | truncatewords: 26 | escape_once }}</p>
-      {%- break -%}
-    {%- endif -%}
-  {%- endfor -%}
+  <h3><a href="{{ include.post.url | relative_url }}">{{ include.post.title | escape }}</a></h3>
+  <p class="card-meta"><time datetime="{{ include.post.date | date: '%Y-%m-%d' }}">{{ include.post.date | date: "%B %-d, %Y" }}</time></p>
+  {%- if include.preview -%}
+    <p>{{ include.preview | escape }}</p>
+  {%- else -%}
+    {%- assign paragraphs = include.post.content | split: '<p>' -%}
+    {%- for paragraph in paragraphs offset: 1 -%}
+      {%- assign preview = paragraph | split: '</p>' | first | strip_html | normalize_whitespace -%}
+      {%- assign prefix = preview | slice: 0, 5 | downcase -%}
+      {%- if preview.size >= 50 and prefix != 'song:' -%}
+        <p>{{ preview | truncatewords: 26 | escape_once }}</p>
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
 </article>

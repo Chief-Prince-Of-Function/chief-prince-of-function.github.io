@@ -492,6 +492,12 @@ html{scroll-padding-top:120px}
 }
 
 .project-copy { min-width: 0; }
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: .6rem 1rem;
+}
 .project-copy .small-label { margin-bottom: .75rem; }
 .project-copy .card-note { font-size: .92rem; }
 
@@ -528,6 +534,23 @@ html{scroll-padding-top:120px}
 .card--post h3 a { text-decoration: underline; text-decoration-thickness: 1px; }
 .card--post h3 a:hover { text-decoration-thickness: 2px; }
 .card--post p:last-child { margin-bottom: 0; }
+
+.prose .writing-start .card-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.writing-start .card--post {
+  background: #fcfaf5;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+@media (max-width: 700px) {
+  .prose .writing-start .card-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
 
 .archive-nav {
   display: flex;

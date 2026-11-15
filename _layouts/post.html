@@ -16,7 +16,17 @@ layout: default
   </header>
 
   <div class="prose" itemprop="articleBody">
-    {{ content }}
+    {%- assign article_body = content | strip -%}
+    {%- assign opening_tag = article_body | split: '>' | first | split: ' ' | first -%}
+    {%- if opening_tag == '<h1' and article_body contains '</h1>' -%}
+      {%- assign first_heading = article_body | split: '</h1>' | first | append: '</h1>' -%}
+      {%- assign heading_title = first_heading | strip_html | normalize_whitespace | escape_once -%}
+      {%- assign post_title = page.title | normalize_whitespace | escape_once -%}
+      {%- if heading_title == post_title -%}
+        {%- assign article_body = article_body | remove_first: first_heading -%}
+      {%- endif -%}
+    {%- endif -%}
+    {{ article_body }}
   </div>
 
   <p class="post-backlink"><a href="{{ '/writing/' | relative_url }}">← Back to writing</a></p>

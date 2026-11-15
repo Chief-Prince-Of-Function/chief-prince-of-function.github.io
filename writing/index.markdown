@@ -2,9 +2,28 @@
 layout: page
 title: Writing
 permalink: /writing/
+start_here:
+  - slug: back
+    preview: On finding his footing in work after the Coast Guard and taking time to notice his daughters growing up.
+  - slug: special
+    preview: A young fly tyer reminds Michael why it matters to share what you know with someone just getting started.
+  - slug: pushing-on
+    preview: Three principles Michael carried out of the Coast Guard and into the work of learning to build software.
 ---
 
 <p class="page-intro">Thoughts on growth, service, building, and the work of becoming better one day at a time.</p>
+
+<section class="writing-start" aria-labelledby="start-here">
+  <h2 id="start-here">Start here</h2>
+  <div class="card-grid">
+    {% for selection in page.start_here %}
+      {% assign featured_post = site.posts | where: "slug", selection.slug | first %}
+      {% if featured_post %}
+        {% include post-card.html post=featured_post preview=selection.preview %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
 
 {% assign archive = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
 <nav class="archive-nav" aria-label="Browse writing by year">
