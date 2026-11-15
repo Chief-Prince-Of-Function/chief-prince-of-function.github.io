@@ -1,30 +1,29 @@
-- title: RiverLog
-  category: Software / Fishing
-  symbol: '≈'
-  description: A purpose-built fishing log app for capturing trips, catches, conditions, and gear in one place.
-  impact: Turns fishing notes into a usable system, so better decisions can be made over time with real data.
-  url: "https://apps.apple.com/us/app/riverlog-fishing-log/id6760871494"
-  target: "_blank"
-  rel: "noopener noreferrer"
-  cta: Explore RiverLog
-  featured: true
-
 - title: Veterans Go Outdoors
   category: Service / Community
-  symbol: '↟'
-  description: A nonprofit centered on connection, healing, and community through meaningful time outdoors.
-  impact: Creates steady support and belonging for veterans through consistent, real-world experiences.
+  description: I founded Veterans Go Outdoors in 2018 to help veterans find fellowship through fly fishing, golf, and time outside together.
+  note: It’s the work I’ve been doing the longest, and one of the greatest blessings in my life.
   url: "https://www.veteransgooutdoors.org/"
-  target: "_blank"
-  rel: "noopener noreferrer"
   cta: Visit Veterans Go Outdoors
+  featured: true
+  image:
+    path: /assets/images/veterans-go-outdoors.jpg
+    alt: A group holds a Veterans Go Outdoors banner in front of a mountain range.
+    width: 1003
+    height: 752
+
+- title: RiverLog
+  category: Software / Fishing
+  description: A fishing log app for keeping trips, catches, conditions, and gear together so you can revisit what worked the next time you head out.
+  url: "https://apps.apple.com/us/app/riverlog-fishing-log/id6760871494"
+  cta: View RiverLog on the App Store
+  image:
+    path: /assets/images/riverlog.webp
+    alt: The RiverLog home screen shows a trip card with an Open Trip button.
+    width: 230
+    height: 499
 
 - title: Practical Tools & Dashboards
   category: Systems / Everyday work
-  symbol: '+'
-  description: Operational dashboards and command-center style tools built to keep people aligned on priorities.
-  impact: Makes work clearer, reduces friction, and helps teams execute with confidence.
+  description: I build dashboards and practical tools that help teams see what needs attention and stay aligned on priorities.
   url: "https://github.com/Chief-Prince-Of-Function"
-  target: "_blank"
-  rel: "noopener noreferrer"
-  cta: View Builder Work
+  cta: Explore my GitHub projects

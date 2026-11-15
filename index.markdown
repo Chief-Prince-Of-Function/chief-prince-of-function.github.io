@@ -26,7 +26,7 @@ description: Service, useful tools, and time outdoors. The personal home of Mich
 
 <section class="section" id="projects">
   <div class="wrap">
-    <div class="section-heading-row"><div><p class="eyebrow">01 / Work with purpose</p><h2>A few things I’m building.</h2></div><p class="section-note">Personal interests, put to work.<br>Real people at the center.</p></div>
+    <div class="section-heading-row"><div><p class="eyebrow">01 / Work with purpose</p><h2>A few things I’m building.</h2></div><a class="text-link" href="#connect">Say hello <span aria-hidden="true">&nearr;</span></a></div>
     <div class="project-grid">
       {% for project in site.data.projects %}
         {% include project-card.html project=project %}

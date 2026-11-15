@@ -7,7 +7,7 @@
     {%- seo -%}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     {%- feed_meta -%}
     {%- if site.favicon -%}
@@ -29,12 +29,12 @@
           <a href="{{ '/about/' | relative_url }}" {% if page.url contains '/about/' %}aria-current="page"{% endif %}>About</a>
           <a href="{{ '/writing/' | relative_url }}" {% if page.url contains '/writing/' %}aria-current="page"{% endif %}>Writing</a>
           <a href="{{ '/' | relative_url }}#projects">Projects</a>
-          <a href="#connect">Connect</a>
+          <a href="#connect">Say hello</a>
         </nav>
       </div>
     </header>
 
-    <main id="main-content" class="site-main" aria-label="Content">
+    <main id="main-content" class="site-main" tabindex="-1" aria-label="Content">
       {{ content }}
     </main>
 
@@ -42,19 +42,26 @@
       <div class="wrap footer-grid">
         <div>
           <p class="eyebrow">Keep in touch</p>
-          <h2>Good work starts with a conversation.</h2>
-          <p>Projects, community, or a shared love of the outdoors.</p>
+          <h2>Say hello.</h2>
+          <p>I&rsquo;d love to hear what brought you here. Tell me a little about yourself, what you&rsquo;re working on, or where you like to get outside.</p>
           <ul class="plain-list">
             <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             <li><a href="https://github.com/{{ site.github_username }}">GitHub</a></li>
             <li><a href="https://www.linkedin.com/in/michael-fusco-902030b4/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
           </ul>
         </div>
+        <form class="contact-form" data-contact-form data-email="{{ site.email | escape }}" hidden>
+          <label for="contact-message">Your message</label>
+          <textarea id="contact-message" name="message" rows="4" maxlength="1000" required aria-describedby="contact-help"></textarea>
+          <p id="contact-help">Up to 1,000 characters. Your email app opens with your message ready to review.</p>
+          <button class="button" type="submit">Open email draft</button>
+        </form>
         <div class="footer-signoff">
           <p>Family. Service. Gratitude.</p><p>Built with purpose, by Michael.</p>
           <p>&copy; {{ 'now' | date: '%Y' }} Michael Fusco</p>
         </div>
       </div>
     </footer>
+    <script src="{{ '/assets/js/contact.js' | relative_url }}" defer></script>
   </body>
 </html>
